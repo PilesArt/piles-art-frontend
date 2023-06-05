@@ -1,0 +1,9 @@
+{
+  "short_name": "Piles Art dApp",
+  "name": "Piles Art Sinusoid Piles Minting Front-end dApp",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

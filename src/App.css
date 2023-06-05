@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/* @import url("https://fonts.googleapis.com/css?family=VT323"); */
+
+
+.App {
+  text-align: center;
+  /* font-family: "Press Start 2P", "VT323";  */
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  color: #1b6d1b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.overlay {
+  opacity: 0.85;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.moving-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url("./assets/background/99.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.videoTag {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+
